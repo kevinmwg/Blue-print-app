@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "917974284809",
+    "project_id": "blue-print-app-86b13",
+    "storage_bucket": "blue-print-app-86b13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917974284809:android:85b89fc96c770920d296d8",
+        "android_client_info": {
+          "package_name": "com.example.blueprintapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc0HZcX_oxOkzytvLc7xSZ-txYkc7gdDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

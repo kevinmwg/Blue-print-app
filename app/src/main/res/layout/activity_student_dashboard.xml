@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/vector">
+
+    <!-- Top half containing the logo and welcome text -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="349dp"
+            android:layout_height="214dp"
+            android:layout_gravity="center"
+            android:padding="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/methodist" />
+
+        <TextView
+            android:id="@+id/textViewWelcomeStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome, To MCK komarock Academy"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <!-- Bottom half containing the buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonAcademics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Academics"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonUpdates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Updates"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonMakePayments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make Payments"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonPerformanceTrack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Performance Track"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_gravity="end"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</LinearLayout>
+

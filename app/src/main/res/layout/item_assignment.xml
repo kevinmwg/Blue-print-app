@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/portait"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAssignmentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assignment Title"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvSubmissionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submission Date"
+        android:textSize="14sp"
+        android:textColor="#888888" />
+
+    <TextView
+        android:id="@+id/tvClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class"
+        android:textSize="14sp"
+        android:textColor="#888888" />
+
+    <TextView
+        android:id="@+id/tvSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textSize="14sp"
+        android:textColor="#888888" />
+
+    <Button
+        android:id="@+id/btnSeeDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Details" />
+
+    <ImageView
+        android:id="@+id/ivAssignmentImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+</LinearLayout>

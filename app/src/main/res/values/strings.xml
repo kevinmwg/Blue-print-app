@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Blue Print App</string>
+    <string name="display_image">display_image</string>
+    <string name="select_image">select</string>
+    <string name="capture_image">capture</string>
+    <string name="upload_image">upload</string>
+</resources>
