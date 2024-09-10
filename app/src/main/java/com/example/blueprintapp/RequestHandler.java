@@ -1,5 +1,4 @@
-package com.dev.bilo.myapplication;
-
+package com.example.blueprintapp;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
