@@ -1,4 +1,4 @@
-package com.dev.bilo.myapplication;
+package com.example.blueprintapp;
 
 public class Mpesa_messages_ {
     String phone,payment_status,payment_code,date_time;
