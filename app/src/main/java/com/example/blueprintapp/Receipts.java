@@ -1,4 +1,4 @@
-package com.dev.bilo.myapplication;
+package com.example.blueprintapp;
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
