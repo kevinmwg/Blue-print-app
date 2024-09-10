@@ -1,4 +1,4 @@
-package com.dev.bilo.myapplication;
+package com.example.blueprintapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
